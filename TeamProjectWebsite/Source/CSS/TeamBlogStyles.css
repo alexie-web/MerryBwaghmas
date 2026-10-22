@@ -1,0 +1,109 @@
+/* comment */
+html {
+    box-sizing: border-box;
+}
+
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(/Assets/GIF/heartpinkpas.gif);
+    background-repeat: repeat;
+}
+
+.header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 192, 250);
+}
+
+.header li a{
+    float: left;
+    background-color: rgb(255, 192, 250);
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.header li a:hover{
+    background-color: violet;
+}
+
+.StartingContainer{
+    display:grid;
+    grid-template-areas: 
+    "WelcomeMessage WelcomeMessage"
+    "Message Image";
+    padding: 40px;
+    row-gap: 40px;
+    column-gap: 5px;
+}
+
+.StartingContainer .WelcomeMessage {
+    grid-area: WelcomeMessage;
+    background-color: pink;
+    border-style: solid;
+    border-color: violet;
+    border-radius: 50px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.StartingContainer .Message {
+    grid-area: Message;
+    background-color: pink;
+    border-style: solid;
+    border-color: violet;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+}
+
+.StartingContainer .Image {
+    grid-area: Image;
+    background-color: pink;
+}
+
+.RecentPostContainer {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.RecentPostContainer div {
+    background-color: pink;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: violet;
+    margin: 10px;
+    padding: 10px;
+}
+
+.RecentPostContainer div:hover{
+    background-color: violet;
+}
+
+.RecentPostContainer div a {
+    text-decoration: none;
+}
+
+.Subtext {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    margin: 3px;
+}
