@@ -1,0 +1,48 @@
+html {
+    box-sizing: border-box;
+}
+
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(/Assets/Img/strawbee.png);
+    background-repeat: repeat;
+}
+
+.header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: palevioletred;
+}
+
+.header li a{
+    float: left;
+    background-color: palevioletred;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header li a:hover{
+    background-color: darkred;
+    color: white;
+}
+
+h1 {
+    padding: 40px;
+    background-color: palevioletred;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    text-align: center;
+}

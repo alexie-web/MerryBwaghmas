@@ -10,6 +10,7 @@ html {
 body {
     margin: 0;
     padding: 0;
+    background-color: pink;
     background-image: url(/Assets/GIF/heartpinkpas.gif);
     background-repeat: repeat;
 }

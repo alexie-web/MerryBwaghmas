@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;
+}
+
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(/Assets/GIF/purplerosesblkbg.gif);
+    background-repeat: repeat;
+}
+
+.header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: purple;
+}
+
+.header li a{
+    float: left;
+    background-color: purple;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.header li a:hover{
+    background-color: violet;
+}
+
+.DirectoryList div {
+    background-color: pink;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: violet;
+    margin: 10px;
+    padding: 10px;
+}
+
+.DirectoryList div:hover{
+    background-color: violet;
+}

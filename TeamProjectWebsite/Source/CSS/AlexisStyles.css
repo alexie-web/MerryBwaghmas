@@ -1,0 +1,102 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(/Assets/Img/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(42, 234, 215);
+}
+
+.header li a{
+    float: left;
+    background-color: rgb(42, 234, 215);
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.header li a:hover{
+    background-color: rgb(26, 134, 123);
+}
+
+.TitleContainer {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.FirstBlogContainer {
+    display: grid;
+    grid-template-areas: "TopBlog Profile";
+    grid-template-columns: 1fr 120px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.FirstBlogContainer .TopBlog {
+    grid-area: TopBlog;
+    background-color: aliceblue;
+    border: 5px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Myriad Pro', 'Myriad', sans-serif;
+}
+
+.FirstBlogContainer .Profile {
+    grid-area: Profile;
+}
+
+.FirstBlogContainer .Profile img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 5px solid gray;
+    border-radius: 5px;
+    display: block;
+}
+
+.SecondBlogContainer {
+    display: grid;
+    grid-template-areas: "BottomBlog";
+    grid-template-columns: 1fr 120px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.SecondBlogContainer .BottomBlog {
+    grid-area: BottomBlog;
+    background-color: aliceblue;
+    border: 5px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Myriad Pro', 'Myriad', sans-serif;
+}
+
+.SecondBlogContainer .BottomBlog img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
