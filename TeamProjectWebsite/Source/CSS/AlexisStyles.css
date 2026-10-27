@@ -99,7 +99,7 @@ body {
     padding: 20px;
     column-gap: 20px;
     align-items: center;
-
+    transform: translateX(-50px);
 }
 
 .SecondBlogContainer .BottomBlog {
