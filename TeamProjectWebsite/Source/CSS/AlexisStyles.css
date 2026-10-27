@@ -9,7 +9,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background-image: url(https://github.com/alexie-web/MerryBwaghmas/blob/main/TeamProjectWebsite/Assets/Img/Background.png);
+    background-image: url(Photos/Background.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
