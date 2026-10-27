@@ -9,7 +9,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background-image: url(https://alexie-web.github.io/MerryBwaghmas/TeamProjectWebsite/Assets/Img/Background.png);
+    background-image: url(/Photos/Background.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -41,6 +41,7 @@ body {
     text-align: center;
     margin: 10px 0;
 }
+
 
 .FirstBlogContainer {
     display: grid;
