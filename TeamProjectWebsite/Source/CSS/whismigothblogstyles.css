@@ -30,7 +30,7 @@ html {
 .whimsigothblog {
     margin:0;
     padding:0;
-    background: url(/Assets/Img/whimsigothbg.jpg) repeat center center fixed;
+    background: url(https://alexie-web.github.io/MerryBwaghmas/TeamProjectWebsite/Assets/Img/whimsigothbg.jpg) repeat center center fixed;
     background-size: cover;
 }
 .whimsigothtitle {
