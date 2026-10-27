@@ -88,7 +88,6 @@ body {
     height: 152px;
     border: none;
     border-radius: 12px;
-    margin-left: 200px;
 }
 
 .SecondBlogContainer {
@@ -96,12 +95,11 @@ body {
     grid-template-areas: "BottomBlog";
     grid-template-columns: 1fr 120px;
     max-width: 800px;
-    margin: -200px auto;
+    margin: 30px auto;
     padding: 20px;
     column-gap: 20px;
     align-items: center;
 
-    transform: translateX(-50px);
 }
 
 .SecondBlogContainer .BottomBlog {
