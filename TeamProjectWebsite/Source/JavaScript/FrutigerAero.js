@@ -15,7 +15,7 @@ button2.addEventListener("click", () => {
 const button3 = document.getElementById("button3");
 const clickSound3 = new Audio("https://alexie-web.github.io/MerryBwaghmas/TeamProjectWebsite/Assets/Mp3/Water Plop - Sound Effect (HD).mp3");
 
-button3=.addEventListener("click", () => {
+button3.addEventListener("click", () => {
     clickSound3.currentTime = 0;
     clickSound3.play();
 });
