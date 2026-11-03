@@ -78,7 +78,9 @@ h1 {
     margin-top: 15px;
 }
 .whimsigothbutton {
-    background:transparent;
+    background: transparent;
     border: none;
+    max-width: 30%;
+    max-height: auto;
 }
 
