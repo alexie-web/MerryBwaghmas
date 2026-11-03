@@ -124,7 +124,7 @@ html {
     transform: scale(0.85);
 }
 #button2:active {
-    transform: scale(0.1);
+    transform: scale(0.4);
 }
 #button3:hover {
     transform: scale(0.55);
