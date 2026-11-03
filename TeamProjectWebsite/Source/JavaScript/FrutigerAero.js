@@ -6,7 +6,7 @@ button1.addEventListener("click", () => {
     clickSound1.play();
 });
 const button2 = document.getElementById("button2");
-const clickSound2 = new Audio("https://alexie-web.github.io/MerryBwaghmas/TeamProjectWebsite/Assets/Mp3/Samsung touchscreen waterdrop sound effect.mp3");
+const clickSound2 = new Audio("https://alexie-web.github.io/MerryBwaghmas/TeamProjectWebsite/Assets/Mp3/samsungwaterdrop.mp3");
 
 button2.addEventListener("click", () => {
     clickSound2.currentTime = 0;
