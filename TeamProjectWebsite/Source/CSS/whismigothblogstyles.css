@@ -83,8 +83,52 @@ h1 {
     max-width: 30%;
     height: auto;
 }
-#moonbutton {
-  display: block;
-  margin-left: auto;
+#moonbutton img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover; 
 }
-
+#moonbutton {
+    display: block;
+    margin-left: auto;
+}
+#sunbutton img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+#witch {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    z-index: 10;
+    transform: translate(-100%, -50%);
+    transition: transform 3s ease-in-out;
+}
+#witch.witchfly {
+    transform: translate(100vw, -50%);
+}
+.star {
+    position: fixed;
+    top: -60px;
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    opacity: 1;
+    pointer-events: none;
+    z-index: 20;
+    animation: starfalling 3s linear forwards;
+}
+@keyframes starfalling {
+    from {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateY(calc(100vh + 60px));
+        opacity: 1;
+    }
+}
